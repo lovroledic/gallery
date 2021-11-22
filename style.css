@@ -1,37 +1,36 @@
 body {
     box-sizing: border-box;
-    background-color: #000;
+    background-color: #fff;
     margin: 0;
 }
 
 .gallery__main {
     display: flex;
     align-items: center;
-    border: 5px solid #003C5F;
-    max-height: calc(100vh - 8rem - 20px);
+    max-height: calc(100vh - 185px);
     overflow: hidden;
 }
 .gallery__main img {
     width: 100%;
-    min-height: calc(100vh - 8rem);
+    min-height: calc(100vh - 185px);
     object-fit: cover;
 }
 
 .gallery__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 10px;
 }
 
 .gallery__grid__item {
     display: flex;
     align-items: center;
-    border: 5px solid #003C5F;
-    height: 8rem;
+    height: 175px;
     overflow: hidden;
 }
 
 .gallery__grid__item img {
     width: 100%;
-    min-height: 8rem;
+    min-height: 175px;
     object-fit: cover;
 }
