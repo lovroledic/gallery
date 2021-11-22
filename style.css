@@ -7,13 +7,13 @@ body {
 .gallery__main {
     display: flex;
     align-items: center;
-    max-height: calc(100vh - 205px);
+    max-height: calc(100vh - 195px);
     border: 5px solid #003C5F;
     overflow: hidden;
 }
 .gallery__main img {
     width: 100%;
-    min-height: calc(100vh - 205px);
+    min-height: calc(100vh - 195px);
     object-fit: cover;
 }
 
