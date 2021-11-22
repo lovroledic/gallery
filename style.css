@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #003C5F;
     margin: 0;
 }
 
@@ -8,7 +8,7 @@ body {
     display: flex;
     align-items: center;
     max-height: calc(100vh - 195px);
-    border: 5px solid #003C5F;
+    margin: 5px;
     overflow: hidden;
 }
 .gallery__main img {
@@ -26,7 +26,7 @@ body {
     display: flex;
     align-items: center;
     height: 175px;
-    border: 5px solid #003C5F;
+    margin: 5px;
     overflow: hidden;
 }
 
